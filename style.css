@@ -1,0 +1,55 @@
+*{
+  margin: 0;
+  line-height: 1.5;
+  box-sizing: border-box;  
+}
+nav,footer{
+    background-color: bisque;
+    text-align: right;
+    padding: 30px;
+}
+nav a{
+    background-color: lightslategray;
+    margin: 10px;
+    padding: 5px 35px;
+    text-decoration: none;
+    color: white;
+}
+img{
+    width: 100%;
+}
+.property{
+    text-align: center;
+    display: flex;
+    width: 90%;
+    margin: auto;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+h1{
+    font-size: larger;
+    color: white;
+}
+.welcome{
+    margin:auto;
+    justify-items: center;
+}
+.accomodation{
+    width:30%;
+    background-color: blanchedalmond;
+}
+.foods{
+    width: 30%;  
+    background-color: blanchedalmond;
+}
+.memories{
+    width:30%;
+    background-color: blanchedalmond;
+}
+.foods img{
+    height:6cm;   
+}
+footer{
+    margin-top:5px;
+    color:black;
+}
